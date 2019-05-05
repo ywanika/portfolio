@@ -370,7 +370,6 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
-  background-color: #fff;
   font-weight:bold;
 }
 
@@ -3879,6 +3878,8 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: rgba(255,250,255,.8);
+  
 }
 
 .nav-link {
@@ -3932,7 +3933,7 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
+  /*border-radius: 0.25rem;*/
 }
 
 .nav-pills .nav-link.active,
@@ -4888,15 +4889,20 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  border-radius: 0.3rem;
   background-color: #e9ecef;
 }
 
-#heading{
+#top{
   background-image: url("../../Images/jumbotron.png") !important;
   background-position: center;
-  height:100%;
-  background-color:#fff;
+  background-size: 100% 100% !important;
+  /*background-color:#fff;*/
+}
+#index_jumbotron{
+  background-image: url("../../Images/jumbotron.png") !important;
+  background-position: center;
+  background-size: 100% 100% !important;
+  height:30rem !important;
 }
 
 @media (min-width: 576px) {
@@ -7322,6 +7328,21 @@ button.bg-dark:focus {
 .position-fixed {
   position: fixed !important;
 }
+/*#index_writing { 
+	fixed position a full width container 
+	position: fixed;
+	left: 0;
+	right: 0;
+	center all inline content 
+	text-align: center;
+}
+
+#index_writing > div {
+	make the block inline 
+	display: inline-block;
+	reset container's center alignment 
+	text-align: left;
+}*/
 
 .position-sticky {
   position: -webkit-sticky !important;
