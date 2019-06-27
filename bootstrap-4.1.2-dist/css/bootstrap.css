@@ -7328,6 +7328,12 @@ button.bg-dark:focus {
 .position-fixed {
   position: fixed !important;
 }
+
+.position-sticky {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
 /*#index_writing { 
 	fixed position a full width container 
 	position: fixed;
@@ -7343,11 +7349,6 @@ button.bg-dark:focus {
 	reset container's center alignment 
 	text-align: left;
 }*/
-
-.position-sticky {
-  position: -webkit-sticky !important;
-  position: sticky !important;
-}
 
 .fixed-top {
   position: fixed;
@@ -9057,6 +9058,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 #black{
   color:#000 !important;
+}
+
+#index_fade{
+  transition:0.4s;
+}
+
+#index_stay{
+  position: fixed;
+  text-align: center !important;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
