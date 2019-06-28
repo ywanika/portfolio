@@ -9062,10 +9062,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 #index_fade{
   transition:0.4s;
+  top:60px;
 }
 
 #index_stay{
-  transition:0.2s;
   position: fixed;
   left: 0;
   right: 0;
