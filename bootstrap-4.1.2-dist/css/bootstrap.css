@@ -9061,8 +9061,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #index_fade{
-  transition:0.4s;
-  top:60px;
+  margin-top: 12%;
 }
 
 #index_stay{
