@@ -498,12 +498,12 @@ mark,
 }
 
 .figure-img {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
   line-height: 1;
 }
 
 .figure-caption {
-  font-size: 90%;
+  font-size: 70%; <!--changed-->
   color: #6c757d;
 }
 
